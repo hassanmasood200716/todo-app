@@ -1,6 +1,5 @@
 "use client"
 import { useEffect, useState } from "react";
-import Navbar from "@/components/Navbar";
 import { v4 as uuidv4 } from "uuid";
 
 function App() {
@@ -67,8 +66,7 @@ function App() {
 
   return (
     <>
-    <Navbar />
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-850 to-gray-900 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-850 to-gray-900 relative overflow-hidden pt-10">
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZmlsdGVyIGlkPSJhIj48ZmVUdXJidWxlbmNlIHR5cGU9ImZyYWN0YWxOb2lzZSIgbnVtT2N0YXZlcz0iMyIgYmFzZUZyZXF1ZW5jeT0iLjg1IiBzdGl0Y2hUaWxlcz0ic3RpdGNoIi8+PC9maWx0ZXI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsdGVyPSJ1cmwoI2EpIiBvcGFjaXR5PSIwLjA2Ii8+PC9zdmc+')] opacity-10"></div>
       
       <div className="relative z-10 max-w-2xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
